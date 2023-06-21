@@ -15,7 +15,7 @@ const = Sum function (a,b){         // Function Expression And also Called Anony
 let a = Sum(50,50)
 console.log(a)
 
-
+// Here is the changes
 const Sum=(a,b) => {        // Arrow Function 
   return a+b;
 }
