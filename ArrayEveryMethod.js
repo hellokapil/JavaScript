@@ -14,3 +14,5 @@ const even = (element) => element % 2 === 0;
 console.log(array2.every(even));
 // Expected output: true
 /*Hello this is a new change*/
+
+Shivani
