@@ -5,7 +5,7 @@ function Sum(a,b){          // Tradational Way to declare a function and that ca
 
 }
 
-
+// Funtion accepts data as parameter and function can also return data
 
 const Sum2 = function(a,b){         // Function Expression And also Called Anonymous Function, Anonymous Function can't be Hoisted
   return a+b;
