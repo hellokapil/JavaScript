@@ -1,4 +1,4 @@
-function Sum(a,b){          // Tradational Way to declare a function
+function Sum(a,b){          // Tradational Way to declare a function and that can be Hoisted
   
   return a+b;
 
@@ -7,7 +7,7 @@ function Sum(a,b){          // Tradational Way to declare a function
 
 
 
-const = Sum function (a,b){         // Function Expression And also Called Anonymous Function
+const Sum = function(a,b){         // Function Expression And also Called Anonymous Function, Anonymous Function can't be Hoisted
   return a+b;
 }
 
@@ -15,11 +15,11 @@ const = Sum function (a,b){         // Function Expression And also Called Anony
 let a = Sum(50,50)
 console.log(a)
 
-// Here is the changes
-const Sum=(a,b) => {        // Arrow Function 
+//Here is the changes
+const Sum2=(a,b) => {        // Arrow Function
   return a+b;
 }
-console.log(Sum(10,29));
+console.log(Sum2(10,29));
 
 
 /* Parameters are like variable which is specific to that function.
