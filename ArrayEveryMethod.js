@@ -15,4 +15,3 @@ console.log(array2.every(even));
 // Expected output: true
 /*Hello this is a new change*/
 
-Shivani
